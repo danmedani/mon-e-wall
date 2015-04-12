@@ -1,5 +1,5 @@
 {
-  "name": "node-js-sample",
+  "name": "mon-e-wall",
   "version": "0.2.0",
   "dependencies": {
     "express": {

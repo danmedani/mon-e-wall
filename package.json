@@ -1,10 +1,10 @@
 {
-  "name": "node-js-sample",
-  "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
-  "main": "index.js",
+  "name": "mon-e-wall",
+  "version": "0.1.0",
+  "description": "A wall of money.",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.0.0"
@@ -14,16 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-sample"
+    "url": "https://github.com/danmedani/mon-e-wall"
   },
   "keywords": [
     "node",
-    "heroku",
     "express"
+    "money",
+    "wall"
   ],
-  "author": "Mark Pundsack",
+  "author": "Dan Medani",
   "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+  
   ],
   "license": "MIT"
 }

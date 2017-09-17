@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle Elastic-Beanstalk-Sample-App@0.0.1~prestart: Elastic-Beanstalk-Sample-App@0.0.1
+6 silly lifecycle Elastic-Beanstalk-Sample-App@0.0.1~prestart: no script for prestart, continuing
+7 info lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: Elastic-Beanstalk-Sample-App@0.0.1
+8 verbose lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: unsafe-perm in lifecycle true
+9 verbose lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/dan/codes/moneyWall/node_modules/.bin:/Users/dan/Downloads/google-cloud-sdk/bin:/Users/dan/Library/Android/sdk/platform-tools:/Users/dan/codes/gradle-3.2.1/bin:/usr/local/bin/ec2-api-tools-1.7.5.1/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dan/Library/Android/sdk/tools:/Users/dan/Library/Android/sdk/platform-tools
+10 verbose lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: CWD: /Users/dan/codes/moneyWall
+11 silly lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: Args: [ '-c', 'node app.js' ]
+12 silly lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: Returned: code: 1  signal: null
+13 info lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: Failed to exec start script
+14 verbose stack Error: Elastic-Beanstalk-Sample-App@0.0.1 start: `node app.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid Elastic-Beanstalk-Sample-App@0.0.1
+16 verbose cwd /Users/dan/codes/moneyWall
+17 error Darwin 16.7.0
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+19 error node v6.9.2
+20 error npm  v3.10.9
+21 error code ELIFECYCLE
+22 error Elastic-Beanstalk-Sample-App@0.0.1 start: `node app.js`
+22 error Exit status 1
+23 error Failed at the Elastic-Beanstalk-Sample-App@0.0.1 start script 'node app.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the Elastic-Beanstalk-Sample-App package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node app.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs Elastic-Beanstalk-Sample-App
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls Elastic-Beanstalk-Sample-App
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

@@ -1,30 +1,9 @@
 {
-  "name": "mon-e-wall",
-  "version": "0.1.0",
-  "description": "A wall of money.",
-  "main": "server.js",
+  "name": "Elastic-Beanstalk-Sample-App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.0.0"
-  },
-  "engines": {
-    "node": "0.12.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/danmedani/mon-e-wall"
-  },
-  "keywords": [
-    "node",
-    "express",
-    "money",
-    "wall"
-  ],
-  "author": "Dan Medani",
-  "contributors": [
-  
-  ],
-  "license": "MIT"
+    "start": "node app.js"
+  }
 }

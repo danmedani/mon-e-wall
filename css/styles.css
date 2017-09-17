@@ -1,0 +1,44 @@
+body {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size:14px;
+  -moz-transition-property: text-shadow;
+  -moz-transition-duration: 4s;
+  -webkit-transition-property: text-shadow;
+  -webkit-transition-duration: 4s;
+  text-shadow: none;
+}
+body.blurry {
+  -moz-transition-property: text-shadow;
+  -moz-transition-duration: 4s;
+  -webkit-transition-property: text-shadow;
+  -webkit-transition-duration: 4s;
+  text-shadow: #fff 0px 0px 25px;
+}
+a {
+  color: #55aaff;
+}
+
+h1 {
+  color: #33342D;
+  font-size: 500%;
+  font-weight: normal;
+  margin-bottom: 0em;
+}
+h2 {
+  font-size: 200%;
+  font-weight: normal;
+  margin-bottom: 0em;
+}
+ul {
+  padding-left: 1em;
+  margin: 0px;
+}
+li {
+  margin: 1em 0em;
+}
+
+#moneyWall {
+  color: #33342D;
+  font-size: 300%; 
+}

@@ -7,8 +7,8 @@
 6 silly lifecycle Elastic-Beanstalk-Sample-App@0.0.1~prestart: no script for prestart, continuing
 7 info lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: Elastic-Beanstalk-Sample-App@0.0.1
 8 verbose lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: unsafe-perm in lifecycle true
-9 verbose lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/dan/codes/moneyWall/node_modules/.bin:/Users/dan/Downloads/google-cloud-sdk/bin:/Users/dan/Library/Android/sdk/platform-tools:/Users/dan/codes/gradle-3.2.1/bin:/usr/local/bin/ec2-api-tools-1.7.5.1/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dan/Library/Android/sdk/tools:/Users/dan/Library/Android/sdk/platform-tools
-10 verbose lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: CWD: /Users/dan/codes/moneyWall
+9 verbose lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/dan/codes/mon-e-wall/node_modules/.bin:/Users/dan/Downloads/google-cloud-sdk/bin:/Users/dan/Library/Android/sdk/platform-tools:/Users/dan/codes/gradle-3.2.1/bin:/usr/local/bin/ec2-api-tools-1.7.5.1/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dan/Library/Android/sdk/tools:/Users/dan/Library/Android/sdk/platform-tools
+10 verbose lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: CWD: /Users/dan/codes/mon-e-wall
 11 silly lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: Args: [ '-c', 'node app.js' ]
 12 silly lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: Returned: code: 1  signal: null
 13 info lifecycle Elastic-Beanstalk-Sample-App@0.0.1~start: Failed to exec start script
@@ -23,7 +23,7 @@
 14 verbose stack     at maybeClose (internal/child_process.js:877:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid Elastic-Beanstalk-Sample-App@0.0.1
-16 verbose cwd /Users/dan/codes/moneyWall
+16 verbose cwd /Users/dan/codes/mon-e-wall
 17 error Darwin 16.7.0
 18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
 19 error node v6.9.2

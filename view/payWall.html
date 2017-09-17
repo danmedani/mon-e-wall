@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Money Wall</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <div class="theWall">
+      <h1>Pay The Wall</h1>
+      <table>
+        <tr>
+          <td>
+            <a href="/">Back to Money Wall</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div>
+              <form action="/chargeMoney" method="POST">
+                <script
+                  src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                  data-key="pk_test_cMd6wixtK8eq4WqjDnXeLj8M"
+                  data-amount="999"
+                  data-name="Demo Site"
+                  data-description="Widget"
+                  data-zip-code="true"
+                  data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                  data-locale="auto">
+                </script>
+              </form>
+            </div>
+          </td>
+          </tr>
+      </table>
+    </div>
+  </body>
+</html>

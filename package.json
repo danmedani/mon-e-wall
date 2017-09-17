@@ -2,7 +2,11 @@
   "name": "Elastic-Beanstalk-Sample-App",
   "version": "0.0.1",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "stripe": "^5.0.0"
+  },
   "scripts": {
     "start": "node app.js"
   }

@@ -4,6 +4,7 @@ var fs = require('fs')
 var app = express();
 var server = http.createServer(app);
 var stripe = require('stripe')('sk_test_Ju8gpMkvbyNaNq3bI4myYsrq');
+var port = process.env.PORT || 3000;
 
 const bodyParser = require('body-parser');
 
@@ -56,11 +57,11 @@ app.get('/js/wall.js', function(req, res) {
     res.sendFile(__dirname + '/js/wall.js');
 }); 
 
-app.listen(3000);
+app.listen(port);
 
 var log = function(entry) {
     fs.appendFileSync('/tmp/sample-app.log', new Date().toISOString() + ' - ' + entry + '\n');
 };
 
 // Put a friendly message on the terminal
-console.log('Server running at http://127.0.0.1:' + 3000 + '/');
+console.log('Server running at http://127.0.0.1:' + port + '/');
